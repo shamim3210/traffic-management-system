@@ -9,8 +9,8 @@ Semester: Spring 2026
 ##  Team Members : 
 
 Shajedul Islam Fahim – 2024100000434
-##  Md Shamim Ashraf – 2024100000259 (c)
 T.M. Shahriyar Kabir – 2024100000026
+##  Md Shamim Ashraf – 2024100000259 (c)
 Md. Jipel Ahamed Arman – 2024100000233
 Fayez – 2024100000289
 
