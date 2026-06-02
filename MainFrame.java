@@ -3,7 +3,6 @@ import java.awt.*;
 
 public class MainFrame extends JFrame {
     private VehicleInputPanel inputPanel;
-    private TrafficService trafficService = new TrafficService();
     private JTextField txtSearchNum;
     private JButton btnSearch;
     private JTextArea txtAreaDisplay;
@@ -45,15 +44,7 @@ public class MainFrame extends JFrame {
             }
 
             try {
-                Vehicle v = trafficService.findVehicle(num);
-
-                txtAreaDisplay.setText(String.format(
-                        "Owner: %s\nID: %d\nVehicle Number: %s\nVehicle Type: %s",
-                        v.getName(), v.getId(), v.getVehicleNumber(), v.getVehicleType()
-                ));
-
-                inputPanel.clearForm();
-
+                throw new Exception("Vehicle registration details not found for number: " + num);
             } catch (Exception ex) {
                 JOptionPane.showMessageDialog(
                         this,
@@ -61,6 +52,7 @@ public class MainFrame extends JFrame {
                         "Search Failure",
                         JOptionPane.ERROR_MESSAGE
                 );
+                txtAreaDisplay.setText("ERROR LOG:\n" + ex.getMessage());
             }
         });
     }
