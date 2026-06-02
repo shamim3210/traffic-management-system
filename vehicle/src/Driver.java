@@ -13,6 +13,8 @@ public class Driver extends Person {
         this.vehicleNumber = vehicleNumber;
         this.vehicleType = vehicleType;
     }
+    public String getVehicleNumber() { return vehicleNumber; }
+    public String getVehicleType()   { return vehicleType; }
 
     public void registerVehicle() {
 
