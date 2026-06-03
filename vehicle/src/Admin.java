@@ -12,7 +12,7 @@ public class Admin extends User {
 
     public void generateReport() {
 
-        System.out.println("Report Generated");
+        System.out.println("Report  is Generated");
     }
 
     @Override
