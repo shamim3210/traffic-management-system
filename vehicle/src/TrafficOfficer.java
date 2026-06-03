@@ -1,4 +1,4 @@
-public class TrafficOfficer extends Person     // inheritance
+public class TrafficOfficer extends Person
 {
 
     public TrafficOfficer(String name, int id) {
@@ -14,7 +14,7 @@ public class TrafficOfficer extends Person     // inheritance
     @Override
     public void displayInfo() {
 
-        System.out.println("Officer Name : " + getName());   // encapsulation
+        System.out.println("Officer Name : " + getName());
         System.out.println("Officer ID : " + getId());
     }
 }
