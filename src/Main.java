@@ -2,17 +2,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Vehicle v1 = new Vehicle(
+
+        Driver d1 = new Driver(
                 "Rahim",
                 1051,
                 "DHAKA-1634",
-                "Car\n"
+                "Car"
         );
 
-        System.out.println("\n\n--- Vehicle Information ---\n");
-        v1.displayInfo();
-        v1.registerVehicle();
-        v1.searchVehicle();
+        System.out.println("\n--- Driver Information ---\n");
+        d1.displayInfo();
+        d1.registerVehicle();
 
         System.out.println();
 
@@ -23,8 +23,6 @@ public class Main {
 
         System.out.println("\n--- Admin Information ---\n");
         a1.displayInfo();
-
-
         a1.manageTraffic();
         a1.generateReport();
     }
