@@ -6,6 +6,19 @@ public class TrafficService {
 
     public void addVehicle(Vehicle v) throws InvalidDataException {
         validateInput(v.getVehicleNumber(), v.getVehicleType());
+
+        for (Vehicle existing : vehicleList) {
+            if (existing.getVehicleId() == v.getVehicleId()) {
+                throw new InvalidDataException("Vehicle ID '" + v.getVehicleId() + "' already exists.");
+            }
+        }
+
+        for (Vehicle existing : vehicleList) {
+            if (existing.getVehicleNumber().equalsIgnoreCase(v.getVehicleNumber())) {
+                throw new InvalidDataException("Vehicle Number '" + v.getVehicleNumber() + "' already registered.");
+            }
+        }
+
         vehicleList.add(v);
         System.out.println("Vehicle Added Successfully");
     }
