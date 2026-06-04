@@ -7,6 +7,7 @@ public class Admin {
         this.id = id;
     }
 
+
     public void displayInfo() {
         System.out.println("Admin Name: " + name);
         System.out.println("Admin ID: " + id + "\n");
