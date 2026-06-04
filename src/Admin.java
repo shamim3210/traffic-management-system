@@ -1,16 +1,14 @@
-public class Admin {
-    private String name;
-    private int id;
+package src;
 
+public class Admin extends Person {
     public Admin(String name, int id) {
-        this.name = name;
-        this.id = id;
+        super(name, id);
     }
 
-
+    @Override
     public void displayInfo() {
-        System.out.println("Admin Name: " + name);
-        System.out.println("Admin ID: " + id + "\n");
+        System.out.println("Admin Name: " + getName());
+        System.out.println("Admin ID: " + getId() + "\n");
     }
 
     public void manageTraffic() {
