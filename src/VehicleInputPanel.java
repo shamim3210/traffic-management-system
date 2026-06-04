@@ -19,7 +19,7 @@ public class VehicleInputPanel extends JPanel {
         txtVehicleId = new JTextField();
         txtVehicleNum = new JTextField();
 
-        String[] types = {"Car (BYD)", "Motorcycle", "Truck", "Bus"};
+        String[] types = {"Car", "Motorcycle", "Truck", "Bus"};
         cmbVehicleType = new JComboBox<>(types);
 
         btnSubmit = new JButton("Register Vehicle");
