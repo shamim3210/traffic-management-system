@@ -42,7 +42,7 @@ public class MainFrame extends JFrame {
         txtAreaDisplay.setEditable(false);
 
         JPanel searchPanel = new JPanel(new BorderLayout());
-        searchPanel.setBorder(BorderFactory.createTitledBorder("Search & Error Logs"));
+        searchPanel.setBorder(BorderFactory.createTitledBorder("Search & Results"));
 
         JPanel searchBarRow = new JPanel(new FlowLayout());
         searchBarRow.add(new JLabel("Vehicle Number:"));
