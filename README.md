@@ -268,9 +268,11 @@ Configured Repository Operations.
 
 * Person Abstract Class
 * Owner  Class
-* AdminClass
+* Admin Class
 * Main Class
-* Read Me Design 
+* Read Me Design
+* Cover Page  & Design Git Hub  
+
 
 ### Hemel
 
@@ -297,7 +299,8 @@ Configured Repository Operations.
 * Vehicle search functionality
 * Error logging panel
 * GUI event handling
-* Traffic App 
+* Traffic App Class
+* Architected and Refactored File Structure
 
 ---
 
