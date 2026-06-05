@@ -270,6 +270,7 @@ Configured Repository Operations.
 * Owner  Class
 * AdminClass
 * Main Class
+* Read Me Design 
 
 ### Hemel
 
@@ -284,9 +285,11 @@ Configured Repository Operations.
 
 * MainFrame GUI structure
 
+
 ### Fayaz
 
 * VehicleInputPanel GUI form
+* Engineered System Workflow Diagrams
 
 ### Jipel
 
@@ -294,6 +297,7 @@ Configured Repository Operations.
 * Vehicle search functionality
 * Error logging panel
 * GUI event handling
+* Traffic App 
 
 ---
 
@@ -332,4 +336,14 @@ depending on whether you want the GUI version or console version.
 
 ## Conclusion  🎯
 
-The Traffic Management System demonstrates practical implementation of Java OOP principles and GUI development. It provides an efficient platform for managing vehicle registration and traffic-related information while maintaining data validation and user-friendly interaction.
+This project shows off a Traffic Management System built with Java and the 
+Swing GUI framework. It uses key OOP ideas like inheritance, abstraction, 
+encapsulation, and exception handling. Because of this, the system is 
+organized well and is both scalable and efficient. The desktop app made 
+gives users a simple interface to manage basic traffic and vehicle tasks, 
+connecting theory with real-world use. Though this version hits its goals, 
+there are still some tweaks we could make. Right now, it stores stuff in 
+memory using ArrayLists, but changing that to a permanent relational 
+database would help keep data safe and intact. Also, we could improve the 
+UI to make it more user-friendly and add advanced features like solid create, 
+read, update, and delete functions, plus strong search abilities. 
