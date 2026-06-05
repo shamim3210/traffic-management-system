@@ -299,7 +299,7 @@ Configured Repository Operations.
 * Vehicle search functionality
 * Error logging panel
 * GUI event handling
-* Traffic App Class
+* TrafficApp Class
 * Architected and Refactored File Structure
 
 ---
