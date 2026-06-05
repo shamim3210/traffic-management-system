@@ -227,7 +227,7 @@ Custom exception class:
 
 ## Sample Workflow
 
-### Vehicle Registration
+### Vehicle Registration    🚗💳
 
 1. User enters:
 
@@ -255,14 +255,14 @@ Custom exception class:
 
 ---
 
-## Team Contributions
+## Team Contributions  👥 
 
 ### Shamim
 
 * Person Abstract Class
-* Driver Class
-* TrafficOfficer Class
-* Console-based implementation
+* Owner  Class
+* AdminClass
+* Main Class
 
 ### Hemel
 
@@ -270,6 +270,8 @@ Custom exception class:
 * TrafficService Class
 * InvalidDataException Class
 * Vehicle management functionality
+* Driver Class
+* Report Id 
 
 ### Fahim
 
@@ -288,7 +290,7 @@ Custom exception class:
 
 ---
 
-## How to Run
+## How to Run  🏃‍♂️
 
 ### Using IDE (IntelliJ IDEA / Eclipse / NetBeans)
 
@@ -321,6 +323,6 @@ depending on whether you want the GUI version or console version.
 
 ---
 
-## Conclusion
+## Conclusion  🎯
 
 The Traffic Management System demonstrates practical implementation of Java OOP principles and GUI development. It provides an efficient platform for managing vehicle registration and traffic-related information while maintaining data validation and user-friendly interaction.
