@@ -80,7 +80,7 @@ The system allows:
 
 ---
 
-## Project Structure  
+## Project Structure  🧩
 
 ### Core Classes
 
@@ -254,6 +254,13 @@ Custom exception class:
 4. If not found, an error message is shown.
 
 ---
+Architected and Refactored File Structure
+Integrated Vehicle Registration Flow
+Engineered Robust Data Validation
+Optimized Search Operations & Interface UX
+Implemented Centralized Error Logging Panel
+Configured Repository Operations.
+
 
 ## Team Contributions  👥 
 
