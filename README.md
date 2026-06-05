@@ -54,7 +54,7 @@ The system allows:
 * Search vehicles using vehicle numbers.
 * Display all registered vehicles.
 
-### Validation & Exception Handling   ❌❗
+### Validation & Exception Handling    ❌❗
 
 * Prevent empty inputs.
 * Validate vehicle numbers.
