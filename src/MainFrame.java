@@ -27,7 +27,7 @@ public class MainFrame extends JFrame {
     private TrafficService trafficService = new TrafficService();
 
     public MainFrame() {
-        setTitle("Traffic Management System GUI");
+        setTitle("Traffic Management System");
         setSize(450, 550);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
