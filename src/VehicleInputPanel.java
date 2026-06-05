@@ -24,7 +24,7 @@ public class VehicleInputPanel extends JPanel {
 
         btnSubmit = new JButton("Register Vehicle");
 
-        add(new JLabel("src.Owner Name:")); add(txtOwnerName);
+        add(new JLabel("Owners Name:")); add(txtOwnerName);
         add(new JLabel("Vehicle ID (Numeric):")); add(txtVehicleId);
         add(new JLabel("Vehicle Number:")); add(txtVehicleNum);
         add(new JLabel("Vehicle Type:")); add(cmbVehicleType);
